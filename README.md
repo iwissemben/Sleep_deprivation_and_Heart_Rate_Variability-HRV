@@ -1,9 +1,9 @@
 # Sleep deprivation and Heart Rate Variability (HRV) 
 
-![Project artwork](Doc\img\HRV_and_Sleep_Deprivation_550_250_LE_digital_art_x4.jpg)
+![Project artwork](Doc/img/HRV_and_Sleep_Deprivation_550_250_LE_digital_art_x4.jpg)
  ## Description
  This repository is dedicated to a study group project. The aim of this project is to learn to collect and manipulate physiological signals and data obtained with the Polar H10 belt while addressing a scientific question. 
- ![Polar H10 artwork 1](Doc\img\polar_red.jpg)
+ ![Polar H10 artwork 1](Doc/img/polar_red.jpg)
 
  ### Tools
  1. The [Polar H10](https://www.polar.com/en/sensors/h10-heart-rate-sensor) belt is equipped with a heart rate sensor that is capable of performing single-lead electrocardiograms (ECG) wand was used to collect the data.
@@ -15,10 +15,10 @@
  4. An R script was developed to provide statistical visualization of the processed data and facilitate time and frequency analysis and interpretation.
 
  <p align="center">
-  <img src="Doc\img\Polar_Electro_Logo.svg" height="75" alt="Logo 1" />&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="Doc\img\RStudio_logo_flat.svg" height="100" alt="Logo 2" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="Doc/img/Polar_Electro_Logo.svg" height="75" alt="Logo 1" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="Doc/img/RStudio_logo_flat.svg" height="100" alt="Logo 2" />&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="Doc/img/EHRV_Darklogo.svg" height="75" alt="Logo 3" />&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="Doc\img\kubios-600x200-1.svg" height="100" alt="Logo 4" />
+  <img src="Doc/img/kubios-600x200-1.svg" height="100" alt="Logo 4" />
 </p>
  
  ### Scientific question
@@ -28,7 +28,7 @@ The scientific question we aimed to investigate was the effect of sleep deprivat
 Our hypothesis, informed by the publications listed in the [Bibliography](##Bibliography) and an educated assumption, was that sleep deprivation impairs Heart Rate Variability.
 
  ### Data collection
- ![Polar H10 artwork 2](Doc\img\h10-preview-l-min.jpg)
+ ![Polar H10 artwork 2](Doc/img/h10-preview-l-min.jpg)
  The Polar belt was used to record ECG data directly on the project members (n=3).
  
  Each participant performed a short recording session of its heart activity in the morning just after awakening using the polar belt.
