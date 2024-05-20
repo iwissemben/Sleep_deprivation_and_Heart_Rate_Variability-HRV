@@ -1,26 +1,12 @@
 # Sleep deprivation and Heart Rate Variability (HRV) 
 
 ![Project artwork](Doc/img/HRV_and_Sleep_Deprivation_550_250_LE_digital_art_x4.jpg)
+
  ## Description
  This repository is dedicated to a study group project. The aim of this project is to learn to collect and manipulate physiological signals and data obtained with the Polar H10 belt while addressing a scientific question. 
- ![Polar H10 artwork 1](Doc/img/polar_red.jpg)
 
- ### Tools
- 1. The [Polar H10](https://www.polar.com/en/sensors/h10-heart-rate-sensor) belt is equipped with a heart rate sensor that is capable of performing single-lead electrocardiograms (ECG) wand was used to collect the data.
+ ![Polar H10 artwork 1](Doc/img/polar_red.jpg )
 
- 2. [Elite HRV](https://elitehrv.com/) app (Android and iOS) was paired with the belts and used to record the cardiac electrical activity and exports the amplitudes as txt files.
-
- 3. The software [Kubios](https://www.kubios.com/) was used to perform the preprocessing, and calculations on the ECG data to estimate the spectral powers (HF,LF), determine the heart rate variability (RMSSD & SDNN) and characterize the RR intervals (pNN50,mean,sd).
-
- 4. An R script was developed to provide statistical visualization of the processed data and facilitate time and frequency analysis and interpretation.
-
- <p align="center">
-  <img src="Doc/img/Polar_Electro_Logo.svg" height="75" alt="Logo 1" />&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="Doc/img/RStudio_logo_flat.svg" height="100" alt="Logo 2" />&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="Doc/img/EHRV_Darklogo.svg" height="75" alt="Logo 3" />&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="Doc/img/kubios-600x200-1.svg" height="100" alt="Logo 4" />
-</p>
- 
  ### Scientific question
 
 The scientific question we aimed to investigate was the effect of sleep deprivation on Heart Rate Variability (HRV).
@@ -37,6 +23,24 @@ Our hypothesis, informed by the publications listed in the [Bibliography](##Bibl
 2. In an orthostatic position (standing up after lying down)
 
  Each recording had a duration of 10 minutes and was done using the participant smartphone with the Elite HRV app (Android and iOS). The analysis was systematically made on a 6 min range 2 min after the recording started.
+
+ 
+ ### Tools
+ 1. The [Polar H10](https://www.polar.com/en/sensors/h10-heart-rate-sensor) belt is equipped with a heart rate sensor that is capable of performing single-lead electrocardiograms (ECG) wand was used to collect the data.
+
+ 2. [Elite HRV](https://elitehrv.com/) app (Android and iOS) was paired with the belts and used to record the cardiac electrical activity and exports the amplitudes as txt files.
+
+ 3. The software [Kubios](https://www.kubios.com/) was used to perform the preprocessing, and calculations on the ECG data to estimate the spectral powers (HF,LF), determine the heart rate variability (RMSSD & SDNN) and characterize the RR intervals (pNN50,mean,sd).
+
+ 4. An R script was developed to provide statistical visualization of the processed data and facilitate time and frequency analysis and interpretation.
+
+ <p align="center">
+  <img src="Doc/img/Polar_Electro_Logo.svg" height="75" alt="Logo 1" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="Doc/img/RStudio_logo_flat.svg" height="100" alt="Logo 2" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="Doc/img/EHRV_Darklogo.svg" height="75" alt="Logo 3" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="Doc/img/kubios-600x200-1.svg" height="100" alt="Logo 4" />
+</p>
+ 
 
  #### Experimental protocol
  To test the effect of sleep deprivation on HRV using Polar ECG belt each participant undertook the following 3 phases one for each condition:
